@@ -1,0 +1,24 @@
+# This file was created Wed Sep 26 01:38:27 2018
+# Created by:
+#                 :-) GROMACS - gmx distance, VERSION 5.1.2 (-:
+# 
+# Executable:   /usr/local/gromacs-5.1.2_plumed-2.3b/bin/gmx_mpi
+# Data prefix:  /usr/local/gromacs-5.1.2_plumed-2.3b
+# Command line:
+#   gmx_mpi distance -f gabarap_pcm1_lir2.B99990001.pdb -s gabarap_pcm1_lir2.B99990001.pdb -n theseus_x86/index2.ndx -oav dist.xvg -oall distance.xvg
+# gmx distance is part of G R O M A C S:
+#
+# Good gRace! Old Maple Actually Chews Slate
+#
+@    title "Average distance"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Distance (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "a_226_a_1009"
+     -1.000    1.672

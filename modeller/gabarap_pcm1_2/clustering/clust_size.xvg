@@ -1,0 +1,21 @@
+# This file was created Wed Sep 26 10:43:08 2018
+# by the following command:
+# g_cluster -f merged_models.pdb -s merged_models.pdb -dm rmsd_matrix.xpm -o rmsd_clust.xpm -g cluster.log -sz clust_size.xvg -cl clusters.pdb -clid clust_id.xvg -n index.ndx -method gromos -cutoff 0.326 
+#
+# g_cluster is part of G R O M A C S:
+#
+# Gyas ROwers Mature At Cryogenic Speed
+#
+@    title "Cluster Sizes"
+@    xaxis  label "Cluster #"
+@    yaxis  label "# Structures"
+@TYPE xy
+@g0 type bar
+       1      813
+       2       95
+       3       41
+       4       28
+       5       14
+       6        5
+       7        3
+       8        1
