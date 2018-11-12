@@ -1,0 +1,15 @@
+# This file was created Thu Jul 13 23:00:16 2017
+# by the following command:
+# g_cluster -f merged_models.pdb -s model1.pdb -dm rmsd_matrix.xpm -o rmsd_clust.xpm -g cluster.log -sz clust_size.xvg -cl clusters.pdb -clid clust_id.xvg -n index.ndx -method gromos -cutoff 0.28 
+#
+# g_cluster is part of G R O M A C S:
+#
+# GROningen MAchine for Chemical Simulation
+#
+@    title "Cluster Sizes"
+@    xaxis  label "Cluster #"
+@    yaxis  label "# Structures"
+@TYPE xy
+@g0 type bar
+       1      652
+       2      347

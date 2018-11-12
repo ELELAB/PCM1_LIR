@@ -1,0 +1,13 @@
+REMARK   3  B VALUES.                                                           
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 19.43                          
+REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
+REMARK   3   ESU FOR B VALUES BASED ON MAXIMUM LIKELIHOOD (A**2): 12.908        
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B                                  
+REMARK 465     GLU B  3353                                                      
+REMARK 465     GLY B  3354                                                      
+REMARK 500 TYR B 3351     SER B 3352                  144.82                    
+DBREF  3WIM B 3341  3354  UNP    Q8IZQ1   WDFY3_HUMAN   3341   3354             
+SEQRES   1 B   14  ASP GLU LYS ASP GLY PHE ILE PHE VAL ASN TYR SER GLU          
+SEQRES   2 B   14  GLY                                                          
