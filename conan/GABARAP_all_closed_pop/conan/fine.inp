@@ -1,0 +1,12 @@
+TRAJ ../../traj_filt.0.35_0.5_to.closed_1.05_1.35_to.ext.conf.xtc
+COORD sim_prot.tpr
+NLEVEL 1001
+TRUNC  1.0
+TRUNC_INTER 0.5
+TRUNC_DR 1.0
+DR_MODE init
+GNUS_PATH conan-master/gnuplot_inputscripts
+RUN_MDMAT yes
+#DOMAINS domains.txt
+COORD_PDB model_gabaclos.pdb
+K_TRAJ_CLUSTERS 1-5
