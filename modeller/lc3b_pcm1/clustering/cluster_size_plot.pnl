@@ -1,0 +1,29 @@
+set style line 1 lt 1 lw 3 lc rgb "#ffb266"
+set style line 2 lt 1 lw 2 lc rgb "#f03232"
+set style line 3 lt 1 lw 2 lc rgb "#801400"
+set style line 4 lt 1 lw 2  lc rgb "#ffa500"
+set style line 5 lt 1 lw 2  lc rgb "#c8c800"
+set style line 6 lt 1 lw 2  lc rgb "#ffff00"
+set style line 7 lt 1 lw 2 lc rgb "#90ee90"
+set style line 8 lt 1 lw 2 lc rgb "#00ff00"
+set style line 9 lt 1 lw 3 lc rgb "blue"
+set style line 10 lt 1 lw 2 lc rgb "#0000ff"
+set style line 11 lt 1 lw 2 lc rgb "#00008b"
+set style line 12 lt 1 lw 2 lc rgb "#191970"
+set style line 13 lt 1 lw 2 lc rgb "#00008b"
+set style line 14 lt 1 lw 2 lc rgb "#c080ff"
+set style line 15 lt 1 lw 2 lc rgb "#c000ff"
+set style line 16 lt 1 lw 2 lc rgb "#ff00ff"
+set key outside t r
+
+plot "clust_size.oct"  w boxes ls 9 notitle
+
+#set xlabel "{/Symbol c}1 proximal cys"
+set xlabel "cluster ID"
+set ylabel "population"
+set xrange [0:10]
+#set yrange [0:10]
+replot
+set output 'cluster_size.eps'
+set terminal postscript enhanced color 25
+replot
